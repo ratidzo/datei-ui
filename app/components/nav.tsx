@@ -16,6 +16,10 @@ export default function Nav() {
              leading-normal`}>
                 Datei
             </h1>
+            <h1 className={`${nunito_600.className} text-[1.5rem] leading-normal
+                 text-grey-700`}>
+                Student Database
+            </h1>
             
         </nav>
     )

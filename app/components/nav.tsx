@@ -34,11 +34,9 @@ export default function Nav() {
                 {/* profile section */}
                 <div className='flex items-center gap-2'>
                     {/* avatar shows up here */}
-                    <Image alt='user profile' src={'/profile_default.png'}
-                        width={56}
-                        height={56}
-                        className=' rounded-[3rem]'
-                        />
+                    <div className='w-[56px] h-[56px] bg-grey-200 rounded-full
+                    '>
+                    </div>
                     {/* user profile information */}
                     <div className='flex flex-col justify-center items-start gap-1 '>
                         {/* username */}

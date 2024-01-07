@@ -4,6 +4,7 @@ import Nav from './components/nav'
 
 
 
+
 export const metadata: Metadata = {
   title: 'Datei',
   description: 'A school administration web application.',
